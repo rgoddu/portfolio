@@ -1,0 +1,44 @@
+#logo {
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.buttonbox {
+    width: fit-content;
+    display: flex;
+}
+
+button {
+
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 50%;
+
+}
+
+content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#profilepic{
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
