@@ -27,18 +27,36 @@ img {
     border-radius: 50%;
 
 }
+main{
+    display: block;
+}
 
 content {
-    width: 100%;
-    display: flex;
+    width: 50%;
+    display: inline;
+    text-wrap: wrap;
     justify-content: center;
 }
+span{
+    background-color:yellow;
+}
+#intro{
+    font-size: large
+    /* margin: 50%, 0, 0, 0 */
+}
 #profilepic{
-    display: flex;
-    justify-content: center;
+    float: right;
+    margin: 0, 30px;
+    /* display: flex; */
+    /* justify-content: center; */
 }
 
 footer {
-    display: flex;
-    justify-content: space-around;
+    display: block;
+   float: right;
+   position: fixed;
+   bottom: 0;
+}
+footer > a{
+
 }
