@@ -22,8 +22,31 @@ header{
 main{
     padding: 110px 10px 10px 10px;
 }
-header.h1{
+content{
+    display:flex;
+    flex-wrap:wrap;
+    align-items: center;
+}
+#logo{
+    order: 2;
+    width: 33%;
+}
+#intro{
+    order: 1;
+    width: 33%;
 
+}
+#profilepic{
+    order: 3;
+    width: 34%;
+}
+img{
+    width: 100%;
+    border-radius: 5%;
+}
+summary{
+    display: flex;
+    justify-content: center;
 }
 .buttonbox{
     display: flex;
